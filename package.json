@@ -1,0 +1,25 @@
+{
+  "name": "md-apis",
+  "version": "1.0.0",
+  "description": "Multi-device WhatsApp and Telegram APIs with free and paid access tiers",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "check": "node --check src/server.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "telegram",
+    "api",
+    "multi-device"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0"
+  }
+}
